@@ -1,0 +1,3 @@
+﻿  Game.cpp
+E:\vs-workplace\Game_XJn\source\Game.cpp(88,9): warning C4101: 'areaToRemove': unreferenced local variable
+  Game_XJn.vcxproj -> E:\vs-workplace\Game_XJn\Debug\Game_XJn.exe

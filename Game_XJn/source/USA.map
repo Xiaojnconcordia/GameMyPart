@@ -1,0 +1,106 @@
+[City]
+Boston New_York Philadelphia Buffalo Puttsburch Washington_DC Detroit 
+
+Norfolk Raleigh Savannah JacksonVille Tampa Miami Atlanta 
+
+Cincinnati Knoxville St.Louis Chicago Minneapolis Duluth Fargo
+
+Kansas_City Memphis Birmingham New_Orleans Oklahoma_City Dallas Houston
+
+Omaha Cheyenne Denver Billings Boise Seattle Portland
+
+Santa_FE Salt_Lake_City Las_Vegas San_Francisco Los_Angeles San_Diego Phoenix
+
+
+
+[Edge]
+Boston New_York 3
+New_York Philadelphia 0
+New_York Buffalo 8
+Buffalo Puttsburch 7
+Buffalo Detroit 7
+Puttsburch Detroit 6
+Puttsburch Washington_DC 6
+Philadelphia Washington_DC 3
+
+Washington_DC Norfolk 5
+Puttsburch Raleigh 7
+Norfolk Raleigh 3
+Raleigh Savannah 7
+Savannah JacksonVille 0
+JacksonVille Tampa 4
+Tampa Miami 4
+Raleigh Atlanta 7
+
+Cincinnati Detroit 4
+Cincinnati Puttsburch 7
+Cincinnati Raleigh 15
+Cincinnati Knoxville 6
+Knoxville Atlanta 5
+Cincinnati St.Louis 12
+St.Louis Atlanta 12
+Chicago Detroit 7
+Chicago St.Louis 10
+Chicago Minneapolis 8
+Duluth Chicago 12
+Duluth Detroit 15
+Duluth Fargo 6
+
+Kansas_City Chicago 8
+Kansas_City St.Louis 6
+Memphis St.Louis 7
+Kansas_City Memphis 12
+Memphis Birmingham 6
+Birmingham Atlanta 3
+Birmingham JacksonVille 9
+New_Orleans Birmingham 11
+New_Orleans JacksonVille 16
+New_Orleans Memphis 7
+Oklahoma_City Kansas_City 8
+Oklahoma_City Memphis 14
+Oklahoma_City Dallas 3
+Dallas Memphis 12
+Dallas New_Orleans 12
+Dallas Houston 5
+Houston New_Orleans 8
+
+
+Omaha Chicago 13
+Omaha Minneapolis 8
+Omaha Kansas_City 5
+Omaha Cheyenne 14
+Cheyenne Minneapolis 18
+Denver Kansas_City 16
+Denver Cheyenne 0
+Billings Fargo 17
+Billings Minneapolis 18
+Billings Cheyenne 9
+Boise Billings 12
+Boise Cheyenne 24
+Seattle Billings 9
+Seattle Boise 12
+Portland Seattle 3
+Portland Boise 13
+
+
+Santa_FE Kansas_City 16
+Santa_FE Oklahoma_City 15
+Santa_FE Dallas 16
+Santa_FE Houston 21
+Santa_FE Denver 13
+Salt_Lake_City Boise 8
+Salt_Lake_City Santa_FE 28
+Salt_Lake_City Denver 21
+Las_Vegas Salt_Lake_City 18
+Las_Vegas Santa_FE 27
+San_Francisco Portland 24
+San_Francisco Boise 23
+San_Francisco Salt_Lake_City 27
+San_Francisco Las_Vegas 14
+Los_Angeles San_Francisco 9
+Los_Angeles Las_Vegas 9
+San_Diego Los_Angeles 3
+San_Diego Las_Vegas 9
+San_Diego Phoenix 14
+Phoenix Las_Vegas 15
+Phoenix Santa_FE 18
